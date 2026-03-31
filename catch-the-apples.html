@@ -114,7 +114,7 @@ function moveApple(){
     }
     if(isCrashing(apple, basket)){
         explosionEl.style.display = "none"
-        score=score=+3
+        score=score+3
         apple.y = 0
         apple.x = Math.floor(Math.random()*window.innerWidth) - appleEl.offsetWidth
         appleEl.style.left = apple.x+"px"
